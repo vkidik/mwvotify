@@ -1,0 +1,19 @@
+{
+    "name": "MWVotify",
+    "description": "Play and control music by phone in browser extension",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {},
+    "action": {
+        "default_title" : "Click to show an alert"
+    },
+    "permissions": [
+        "storage",
+        "background",
+        "scripting",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

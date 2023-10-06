@@ -5,15 +5,13 @@
     "manifest_version": 3,
     "icons": {},
     "action": {
-        "default_title" : "Click to show an alert"
+        "default_title" : "Click to show an alert",
+        "default_popup" : "popup.html"
     },
     "permissions": [
         "storage",
         "background",
         "scripting",
         "activeTab"
-    ],
-    "background": {
-        "service_worker": "background.js"
-    }
+    ]
 }
